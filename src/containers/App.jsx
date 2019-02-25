@@ -48,6 +48,7 @@ class App extends Component {
             <Route path="/topics" component={Topics} />
             <Route exact component={NotFound} />
           </Switch>
+
         </div>
       </Router>
     );
